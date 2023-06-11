@@ -1,4 +1,4 @@
-import styles from "./statictic.module.css";
+import styles from "./Statictic.module.css";
 import Proptypes from "prop-types";
 
 var randomColor = require("randomcolor");

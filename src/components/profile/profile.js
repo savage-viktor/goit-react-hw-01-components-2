@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "./profile.module.css";
+import styles from "./Profile.module.css";
 
 function Profile({ userName, tag, location, avatar, followers, views, likes }) {
   return (
