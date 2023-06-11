@@ -33,8 +33,8 @@ Statistic.propTypes = {
       id: Proptypes.string.isRequired,
       label: Proptypes.string.isRequired,
       percentage: Proptypes.number.isRequired,
-    })
-  ),
+    }).isRequired
+  ).isRequired,
 };
 
 export default Statistic;
