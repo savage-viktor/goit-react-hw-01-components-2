@@ -1,6 +1,6 @@
 import "./App.css";
 import Profile from "./Profile/Profile";
-import Statistic from "./statistic/statistic";
+import Statistic from "./Statistic/Statistic";
 import FriendList from "./FriendList/FriendList";
 import user from "../data/user.json";
 import statistic from "../data/statistic.json";
