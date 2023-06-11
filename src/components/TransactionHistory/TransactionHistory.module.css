@@ -1,0 +1,42 @@
+.transactionHistory {
+  width: 400px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 37px -2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 37px -2px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 37px -2px rgba(0, 0, 0, 1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.transactionHistory tr {
+  display: flex;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.transactionHistory th {
+  padding: 0;
+  width: 33.33333333333333%;
+  border: 1px solid white;
+  padding: 10px 0px;
+}
+
+.transactionHistory tbody {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.transactionHistory thead {
+  display: flex;
+  width: 100%;
+  background-color: rgb(26, 138, 243);
+  color: white;
+  text-transform: uppercase;
+  font-size: small;
+}
