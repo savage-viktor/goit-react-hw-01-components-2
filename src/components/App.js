@@ -19,7 +19,7 @@ function App() {
         likes={user.stats.likes}
       />
       <Statistic title="Upload stats" stats={statistic} />
-      <FriendList friends={friends} />
+      {/* <FriendList friends={friends} /> */}
     </div>
   );
 }
