@@ -1,6 +1,6 @@
 import "./App.css";
 import Profile from "./Profile/Profile";
-import Statistic from "./Statistic/Statistic";
+import Statistic from "./statistic/statistic";
 import FriendList from "./FriendList/FriendList";
 import user from "../data/user.json";
 import statistic from "../data/statistic.json";
@@ -19,7 +19,7 @@ function App() {
         likes={user.stats.likes}
       />
       <Statistic title="Upload stats" stats={statistic} />
-      {/* <FriendList friends={friends} /> */}
+      <FriendList friends={friends} />
     </div>
   );
 }
